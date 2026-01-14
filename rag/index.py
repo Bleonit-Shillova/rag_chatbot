@@ -34,7 +34,7 @@ def build_index() -> None:
     db = FAISS.from_documents(chunks, embeddings)
     db.save_local(VECTORSTORE_DIR)
 
-    print(f"✅ Built FAISS index with {len(chunks)} chunks at: {VECTORSTORE_DIR}")
+    print(f" Built FAISS index with {len(chunks)} chunks at: {VECTORSTORE_DIR}")
 
 if __name__ == "__main__":
     build_index()

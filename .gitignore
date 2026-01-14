@@ -1,9 +1,17 @@
+# Python
 .venv/
 __pycache__/
 *.pyc
+
+# Environment / secrets
 .env
+.env.*
+
+# Data & indexes
 vectorstore/
 data/raw/
-data/processed/
+data/processed/chat_history.json
+
+# OS / tooling
 .DS_Store
 .streamlit/secrets.toml

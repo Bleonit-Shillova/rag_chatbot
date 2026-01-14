@@ -1,0 +1,20 @@
+{
+  "num_chunks": 5662,
+  "example_metadata": {
+    "producer": "Adobe Acrobat Pro (32-bit) 24.3.20180",
+    "creator": "Adobe Acrobat Pro (32-bit) 24.3.20180",
+    "creationdate": "2024-10-15T21:47:48+02:00",
+    "author": "International Energy Agency",
+    "keywords": "World Energy Outlook 2024",
+    "moddate": "2025-01-27T14:50:24+01:00",
+    "subject": "World Energy Outlook 2024",
+    "title": "World Energy Outlook 2024",
+    "source": "energy/iea_world_energy_outlook_2024_pdf.pdf",
+    "total_pages": 398,
+    "page": 0,
+    "page_label": "1",
+    "industry": "energy",
+    "start_index": 0,
+    "chunk_id": 0
+  }
+}
