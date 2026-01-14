@@ -87,9 +87,6 @@ pip install -r requirements.txt
 
 2. Configure environment variables
 
-cp .env.example .env
-# Edit .env and set:
-# OPENAI_API_KEY=your_key_here
 
 
 Prepare Data
