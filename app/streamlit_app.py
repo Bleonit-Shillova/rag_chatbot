@@ -111,8 +111,8 @@ def render_citations_grouped(citations, show_chunk_preview, all_docs_for_bm25, s
 
 
 # ---------- Streamlit UI ----------
-st.set_page_config(page_title="Genpact RAG Chatbot", layout="wide")
-st.title("Genpact RAG Chatbot (LangChain + FAISS + OpenAI)")
+st.set_page_config(page_title="RAG Chatbot", layout="wide")
+st.title("RAG Chatbot (LangChain + FAISS + OpenAI)")
 
 with st.sidebar:
     st.header("Filters")
