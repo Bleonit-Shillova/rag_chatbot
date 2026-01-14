@@ -1,4 +1,4 @@
-Genpact RAG Chatbot
+RAG Chatbot
 
 LangChain + FAISS + OpenAI
 
@@ -7,7 +7,7 @@ Overview
 This project implements a Retrieval-Augmented Generation (RAG) chatbot that answers user questions using a curated knowledge base of industry documents (PDFs and text).
 Answers are strictly grounded in retrieved document chunks, include citations, and safely return “I don’t know” when information is not present.
 
-⸻
+
 
 Features
 
@@ -30,7 +30,7 @@ Nice-to-have (Implemented)
 	•	 Light observability
 	•	Manifest with chunk counts and example metadata
 
-⸻
+
 
 Tech Stack
 	•	LLM: OpenAI (gpt-4o-mini)
@@ -40,15 +40,14 @@ Tech Stack
 	•	Lexical Search: BM25 (rank-bm25)
 	•	UI: Streamlit
 
-⸻
+
 
 Dataset
-	•	Public documents related to major industries Genpact operates in
+	•	Public documents related to major industries.
 	•	Organized by industry (banking, insurance, healthcare, manufacturing, etc.)
 	•	30+ documents
 	•	5,600+ chunks (well above the minimum requirement)
 
-⸻
 
 Project Structure
 
@@ -139,7 +138,7 @@ How It Works (High Level)
 	5.	Citations displayed (document + page + chunk)
 	6.	If no relevant content → “I don’t know based on the provided documents.”
 
-⸻
+
 
 Guardrails & Safety
 	•	Prompt-injection detection (blocks malicious instructions)
@@ -148,7 +147,7 @@ Guardrails & Safety
 	•	Ignore instructions found inside documents
 	•	Citations suppressed automatically if the model answers “I don’t know”
 
-⸻
+
 
 Notes for Reviewers
 	•	Hybrid retrieval improves recall and precision
@@ -156,7 +155,7 @@ Notes for Reviewers
 	•	Conversation memory is limited and does not leak across retrieval
 	•	Dataset size exceeds project minimum requirements
 
-⸻
+
 
 Demo
 
