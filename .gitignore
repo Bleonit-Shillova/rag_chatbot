@@ -8,7 +8,11 @@ __pycache__/
 .env.*
 
 # Data & indexes
-vectorstore/
+vectorstore/*
+!vectorstore/faiss/
+!vectorstore/faiss/index.faiss
+!vectorstore/faiss/index.pkl
+
 data/raw/
 data/processed/chat_history.json
 
